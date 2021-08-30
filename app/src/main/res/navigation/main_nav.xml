@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav"
+    app:startDestination="@+id/countryList">
+
+    <fragment
+        android:id="@+id/countryList"
+        android:name="app.countries.ui.list.ListFragment"
+        tools:layout="@layout/fragment_country_list" >
+    <action
+        android:id="@+id/openCountryDetails"
+        app:destination="@id/country_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/country_details"
+        android:name="app.countries.ui.detail.CountryFragment"
+        tools:layout="@layout/fragment_country_details">
+        <argument
+            android:name="countryId"
+            app:argType="string" />
+    </fragment>
+</navigation>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Apollo Countries</string>
+    <string name="country">Name</string>
+    <string name="continent">Continent</string>
+    <string name="capital">Capital</string>
+    <string name="currency">Currency</string>
+    <string name="phone">Phone</string>
+    <string name="languages">Languages</string>
+    <string name="continent_search">Continent</string>
+    <string name="language_search">Language</string>
+    <string name="clear_button">Reset</string>
+    <string name="filter_title">Select continent or language</string>
+    <string name="loading_countries_err">Ops, an error occurred while loading countries data…</string>
+    <string name="loading_country_err">Ops, an error occurred while loading country data…</string>
+    <string name="retry_button">Retry</string>
+</resources>
